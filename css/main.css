@@ -1,0 +1,244 @@
+/***** BASE STYLE FOR BODY ******/
+
+body {
+    color: black;
+    font-weight: lighter;
+    font-family:'Montserrat', sans-serif;
+}
+
+
+
+/***** GRID *****/
+
+.full-width {
+   margin: auto;
+   overflow: auto;
+   width: 1232px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+
+
+
+/***** HEADER SECTION *****/
+
+
+header h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;  
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    word-spacing: 20px;  
+    padding: 21px 0px 5px 0px;
+}
+
+
+nav ul li {
+    display: inline-block;   
+}
+
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+
+
+/***** ABOUT SECTION *****/
+
+#about {
+    
+    margin: auto;
+    width: 1232px;
+}
+
+#about img {
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466 ;
+}
+
+#about h2 {
+    color: #77a466;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 23px;
+    text-transform: uppercase;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 27px;
+}
+
+/***** MORE SECTION *****/
+
+#more .full-width {
+    padding-top: 0px ;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray; 
+}
+
+.reviews {
+    border-right: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    padding-left: 15px;
+    padding-right: 0px;
+}
+
+.contact {
+    padding-left: 15px;
+}
+
+
+#more h3 {
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+ 
+#more ul {
+    color: #77a466;
+    line-height: 30px;
+    text-align: left;
+    list-style-type: none;
+    padding:0;
+}
+
+
+/***** FOOTER *****/
+
+#slogan h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#slogan h4 span {
+    color: #77a466;
+    font-size: 16px;
+    font-family:'Galada', cursive;
+    text-transform: none;
+}
+
+
+
+/***** SECOND PAGE OF WEBSITE "MENU" *****/
+
+
+/***** This is the header section *****/
+
+
+
+
+.home {
+    float: right;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 40px;
+    text-transform: uppercase;
+    word-spacing: 20px; 
+}
+
+
+#return {
+    color: #77a466;
+    text-decoration: none;
+}
+
+
+/***** This is the slogan on top of the menu *****/
+
+
+#tagline {
+    font-size: 50px;
+    font-family: 'Galada', cursive; 
+    text-align: center;
+}
+
+
+/***** The Menu starts here *****/
+
+
+.title-menu {
+    color: #77a466;
+    font-family:'Galada', cursive;
+    font-size: 48px;
+    text-transform: none;  
+    text-decoration: underline; 
+    padding-top: 50px;
+}
+
+.Menu {
+    
+    border: solid 2px #77a466;
+    margin: 50px 200px 100px 290px;  
+    text-align: center;
+    width: 800px;
+}
+
+/***** The different types of bowls *****/
+
+
+.bowls h3 {
+   
+    clear: both;
+    font-family:'Galada', cursive;
+}
+
+
+.bowls h5 {
+    color: #77a466;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+
+.bowls h5 span {
+    color: black;
+}
+
+
+.right {
+    float: right;
+    padding-right: 40px;
+}
+
+   
+.left {
+    float: left;
+    padding-left: 40px;
+}
+
+
+.bottom {
+    border-top: 1px solid lightgray;
+    margin-right: 55px ;
+    margin-left: 55px;
+}
+
